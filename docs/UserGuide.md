@@ -12,22 +12,22 @@ as well as to **keep track of their Modular Credits(MC) and modules taken**.
 It is optimized for use via a Command Line Interface (CLI), while still having the benefits of a Graphical User
 Interface (GUI).
 
-For more information about our features, you can head over to our [Features](#features) section. Better yet, 
+For more information about our features, you can head over to our [Features](#features) section. Better yet,
 head over to our [Quick Start](#quick-start) and try it out for yourself!
 
 ### 1.1 Is this guide for you?
 
-Are you someone who is trying our application for the very first time? If so, our guide is just the thing you need to get started on your journey to create your very own academic plan! 
+Are you someone who is trying our application for the very first time? If so, our guide is just the thing you need to get started on your journey to create your very own academic plan!
 Just simple read along and we will guide you step by step on how to use our application.
 
 Are you someone who has maybe forgotten how some of our features work? Fret not, this user guide is also for you!
 Simply head over to either our [Features](#features) section or our [Command Summary](#command-summary) section to solve your problems.
 
-### 1.2 How to use the user guide 
+### 1.2 How to use the user guide
 
 We strongly recommend first time users of our application to read through the user guide in order to be familiarised with how our application works.
-Throughout our user guide, we have included links which will direct you to the corresponding sections of the user guide. We have also added certain useful tips and tricks 
-to help you get more out of our application. 
+Throughout our user guide, we have included links which will direct you to the corresponding sections of the user guide. We have also added certain useful tips and tricks
+to help you get more out of our application.
 If you ever want to skip through any section of our user guide, do feel free to refer to use the table of contents right below this section to help you with the navigation.
 
 ### 1.3 Table of Contents
@@ -261,7 +261,7 @@ The following sub-categories will explain the intended purpose for the set of fe
 
 ### 4.1 Module
 
-Module features consist of features that allows you to be able to add and remove modules from our database. 
+Module features consist of features that allows you to be able to add and remove modules from our database.
 Do note that these features do not directly affect the modules that are currently stored in your academic plan.
 (we will explain how such features can **indirectly** affect the modules that are currently stored in your academic plan  in the [FAQ](#5-faq) section) <br>
 
@@ -277,8 +277,8 @@ Format: `FORMAT: add c/CODE t/TITLE d/DESCRIPTION m/MC [tag/TAG]`
 
 Examples:
 * `add c/CS2103T t/Software Engineering d/Covers the main areas of software development m/4 tag/core`
-is equivalent to adding a Module with a code of `CS2103T`, a title called `Software Engineering`, a description `Covers the main areas of software development`, consists of `4` MCs and a `core` tag to the database. 
-  
+is equivalent to adding a Module with a code of `CS2103T`, a title called `Software Engineering`, a description `Covers the main areas of software development`, consists of `4` MCs and a `core` tag to the database.
+
 #### 4.1.2 Deleting a module : `delete`
 
 Deletes a module from the module tracker database.
@@ -329,8 +329,8 @@ Format: `edit INDEX [c/CODE] [t/TITLE] [d/DESCRIPTION] [m/MC] [tag/TAG]`
 * The `INDEX` **must be a positive integer** (1, 2, 3 ...).
 
 Examples:
-* `edit 1 c/CS2103T t/Software Engineering` is equivalent to 
-  editing the code of the 1st module in the database to be CS2103T, 
+* `edit 1 c/CS2103T t/Software Engineering` is equivalent to
+  editing the code of the 1st module in the database to be CS2103T,
   as well as editing the title of the 1st module in the database to be Software Engineering respectively.
 * `edit 3 m/2` is equivalent to editing the 3rd module in the database to have a MC of 2.
 
@@ -428,7 +428,7 @@ Example:
 
 ### 4.3 Miscellaneous
 
-Miscellaneous features consist of features that does not directly affect the database nor the academic plan. 
+Miscellaneous features consist of features that does not directly affect the database nor the academic plan.
 Currently, we only have the help feature in this sub-category.
 
 #### 4.3.1 Viewing help : `help`
